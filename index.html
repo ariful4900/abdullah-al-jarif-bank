@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah AL Jarif Bank</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+        <div id="loginArea">
+            <h1 class="bank_title text-center">Welcome to Abdullah Al Jarif Bank</h1>
+            <div class="submit_area ">
+                <h4>Login</h4>
+                <input type="text" class="form-control"placeholder="Email">
+                <br>
+                <input type="password" name="" id="" class="form-control"placeholder="password">
+                <br>
+                <button id="login" class="btn btn-success">Enter</button>
+            </div>
+        </div>
+        <div id="transactionArea">
+            <div class="row text-white">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="status deposit p-3 rounded" >
+                        <h5>Deposit</h5>
+                    <h2>$<span id="currentDeposit">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="status withdraw p-3 rounded">
+                        <h5>Withdraw</h5>
+                    <h2>$<span id="currentWithdraw">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="status balance p-3 rounded">
+                        <h5>Balance</h5>
+                    <h2>$<span id="currentBalance">1240</span></h2>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="submit_area">
+                        <h4>Deposit</h4>
+                        <input type="number" name="" id="depositAmount" class="form-control"placeholder="$ amount you want to deposit">
+                        <br>
+                        <button class="btn btn-success" id="deposit">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="submit_area">
+                        <h4>Withdraw</h4>
+                        <input type="number" name="" id="withdrawAmount" class="form-control"placeholder="$ amount you want to withdraw">
+                        <br>
+                        <button class="btn btn-success" id="withdraw">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>

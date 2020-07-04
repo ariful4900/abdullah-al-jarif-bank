@@ -7,6 +7,7 @@ loginBtn.addEventListener("click", function () {
     transactionArea.style.display = "block"
 
 })
+
 //Deposit button event Handler
 const depositBtn = document.getElementById("deposit");
 depositBtn.addEventListener("click", function () {
